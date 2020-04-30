@@ -1,0 +1,232 @@
+.salesbox-wrapper { box-shadow: 3px 4px 15px #aaa; border-radius: 10px 10px 0 0; margin-bottom: 20px; }
+
+.salesbox {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    top:0;
+    left:0;
+}
+
+.salebox-1, .salesbox-2, .salesbox-3 {
+    flex-grow: 1;
+    padding: 0;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.salesbox-outer1 {
+    margin-top: 20px;
+    background: #cd7f32;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    border-right: 1px solid #cd7f32;
+    border-left: 1px solid #cd7f32;
+}
+
+.salesbox-price1 {
+    background: #cd7f323f;
+    color: #4c4c4c;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    padding-top:15px;
+    border-right: 1px solid #cd7f32;
+    border-left: 1px solid #cd7f32;
+}
+
+.salesbox-outer2 {
+    background: #a0a0a0;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 0 10px 0;
+}
+
+.salesbox-price2 {
+    background: #c0c0c0;
+    color: #4c4c4c;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    padding-top:15px;
+    border-right: 1px solid #a0a0a0;
+    border-left: 1px solid #a0a0a0;
+}
+
+.salesbox-outer3 {
+    margin-top:20px;
+    background: #d4af37;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.salesbox-price3 {
+    background: #d4af3759;
+    color: #4c4c4c;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    padding-top:15px;
+    border-right: 1px solid #dbae00;
+    border-left: 1px solid #dbae00;
+}
+
+.salesbox-pricesub {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 200;
+    color: #888;
+}
+
+.benefits-a1 {
+    padding-top:9px;
+    padding-bottom: 9px;
+    background: #f5f5f5;
+    text-align: center;
+    color: #000;
+    border-right: #cd7f32;
+    border-left: #cd7f32;
+    border-top: #db7b12;
+    border-bottom: #db7b12;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.benefits-b1 {
+    padding-top:9px;
+    padding-bottom: 9px;
+    background: #fff;
+    text-align: center;
+    color: #000;
+    border-right: #cd7f32;
+    border-top: white;
+    border-bottom: white;
+    border-left: #cd7f32;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.salesbox-enroll1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-right: #cd7f32;
+    border-left: #cd7f32;
+    border-bottom: #cd7f32;
+    border-top: #cd7f323f;
+    border-width: 1px;
+    border-style: solid;
+    background: #cd7f323f;
+}
+
+.benefits-a2 {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background: #f5f5f5;
+    text-align: center;
+    color: #000;
+    border-right: #a0a0a0;
+    border-left: #a0a0a0;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.benefits-b2 {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background: #fff;
+    text-align: center;
+    color: #000;
+    border-right: #a0a0a0;
+    border-left: #a0a0a0;
+    border-top: white;
+    border-bottom: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.salesbox-enroll2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-right: #a0a0a0;
+    border-left: #a0a0a0;
+    border-bottom: #a0a0a0;
+    border-top: #c0c0c0;
+    border-width: 1px;
+    border-style: solid;
+    background: #c0c0c0;
+}
+
+.benefits-a3 {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background: #f5f5f5;
+    text-align: center;
+    color: #000;
+    border-right: #dbae00;
+    border-left: #dbae00;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.benefits-b3 {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background: #fff;
+    text-align: center;
+    color: #000;
+    border-right: #dbae00;
+    border-left: #dbae00;
+    border-top: white;
+    border-bottom: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.salesbox-enroll3 {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-right: #dbae00;
+    border-left: #dbae00;
+    border-bottom: #dbae00;
+    border-top: #d4af3759;
+    border-width: 1px;
+    border-style: solid;
+    background: #d4af3759;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+}
+
+
+/*  ------------------------------ */
+/*  ------ stop copying here ----- */
+/*  ------------------------------ */
+
+
+html,
+body { height: 100%; }
+
+body {
+  display: table;
+  width: 100%;
+}
+
+.page-row {
+  display: table-row;
+  height: 1px;
+}
+
+.page-row-expanded { height: 100%; }
+
+.block { margin-top: 50px; }

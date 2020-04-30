@@ -1,0 +1,147 @@
+body {
+	margin:0pt;
+}
+
+
+
+
+.first--half {
+	height: 94px;
+}
+
+/*
+.first--half:hover{
+	height: 413px;
+}
+*/
+
+.header-area {
+    height: 89px;
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 26%;
+    
+	
+
+    
+    color: #fff;
+    /* position: absolute; */
+    
+     /* transition: all .2s ease-in-out; */
+	box-shadow: 0px 5px 20px 0px #4CAF50;
+}
+/*
+.header-area:hover{
+	height: 399px;
+	background-image: linear-gradient(to bottom, #ffffff, #ffffff, #6cd8d9, #37c6a0, #4caf50);
+}
+*/
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px; 
+  font-size: 16px;
+  border: none;
+}
+.dropbtn a{
+	text-decoration: none;
+	color : white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+   margin-left:15px;
+   margin-top: 11px;
+   float: left;
+}
+
+.dropdow {
+  
+  position: relative;
+  
+  margin-left:25px;
+  margin-right:25px;
+  float: left;
+}
+.dropdow img{
+	height:75px; 
+  width:105px;
+   margin-left:30px;
+  margin-right:30px;
+}
+
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(241, 241, 241, 0.7);
+  
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(165, 165, 165); }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+/* Upcoming Projects Page */
+
+
+/* Animation area */
+
+.Hey {
+	
+	height: 580px;
+	width: 100%;
+	overflow: hidden;
+	background-color:#2c3e50;
+	}
+	.Hey #svg{
+		
+	overflow:hidden;
+	height: 600px;
+	
+     width: 100%;
+     overflow: hidden;
+		
+	}
+/* Animation area */	
+	
+.front-block-content {
+	
+	color:#424242; margin:80px 50px 0px 50px; font-family: Roboto,Helvetica Neue,Helvetica, Arial, sans-serif; line-height: 1.75;
+}
+
+.animate {
+	
+	
+	
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+	padding-bottom: 2px;
+}
+	

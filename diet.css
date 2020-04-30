@@ -1,0 +1,25 @@
+body {
+    font-family: "Source Sans Pro","Open Sans",
+    "Helvetica Neue","Helvetica,Arial,sans-serif" ;
+      margin:0;
+      background-image: url("dietbg.jpg");
+      background-color: #cccccc;
+      background-size: 100%;
+      background-blend-mode:exclusion;
+  }
+
+
+  /*PAGE BODY*/
+  .p1{
+  display: block;
+	width: 37%;
+  opacity: 0.9;
+	border: 1px solid white;
+  background-color: #E7F1F5;
+	box-sizing: border-box;
+	padding: 10px 10px;
+	font-size: 18px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+	border-radius: 4px;
+  }

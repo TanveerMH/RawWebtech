@@ -1,0 +1,294 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+	margin:0pt;
+
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+
+.row h3 {
+	color: #4CAF50;
+	font-family: "gothamRoundedBook";
+	font-size: 16px;
+	text-transform: uppercase;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+}
+.row p {
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+
+}
+.first--half {
+	height: 94px;
+}
+
+/*
+.first--half:hover{
+	height: 413px;
+}
+*/
+
+.header-area {
+    height: 89px;
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 26%;
+
+
+
+
+    color: #fff;
+    /* position: absolute; */
+
+     /* transition: all .2s ease-in-out; */
+	box-shadow: 0px 5px 20px 0px #4CAF50;
+}
+/*
+.header-area:hover{
+	height: 399px;
+	background-image: linear-gradient(to bottom, #ffffff, #ffffff, #6cd8d9, #37c6a0, #4caf50);
+}
+*/
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropbtn a{
+	text-decoration: none;
+	color : white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+   margin-left:15px;
+   margin-top: 11px;
+   float: left;
+}
+
+.dropdow {
+
+  position: relative;
+
+  margin-left:25px;
+  margin-right:25px;
+  float: left;
+}
+.dropdow img{
+	height:75px;
+  width:105px;
+   margin-left:30px;
+  margin-right:30px;
+}
+
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(241, 241, 241, 0.7);
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(165, 165, 165); }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+/* First Image of Home Page */
+
+@-webkit-keyframes imgFade {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+
+#container {
+  position:relative;
+  height:600px;
+
+
+}
+#container img {
+  position:absolute;
+  left:0;
+  height:590px;
+  width:100%;
+
+}
+
+
+h1 {
+	text-align: center;
+	color: black;
+	font-size: 30px;
+
+}
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  height: 40px;
+
+}
+th, td {
+  padding: 5px;
+  color: black;
+  text-align: center;
+}
+
+ul {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+	color:   black;
+	margin-left: 41px;
+}
+li:before {
+    content: "";
+    border-color: transparent black;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+.button {
+
+  background-color: #6699F5; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 4px;}
+
+
+
+
+/* Footer first part */
+
+
+#footer-bottom .et-social-icon a {
+    color:
+    #ffffff;
+}
+
+.et-social-icon a {
+    display: inline-block;
+    position: relative;
+    color: #666;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: color .3s ease 0s;
+}
+
+#footer-bottom {
+    padding: 15px 0 5px;
+    background-color: #039997;
+
+}
+#footer-bottom a {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.left {
+
+	float: left;
+}
+
+.footer-social-overlap{
+	float: right;
+}
